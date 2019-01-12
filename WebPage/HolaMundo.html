@@ -4,7 +4,14 @@
 		<title>HolaMundo</title>
 
 		<link href="estilo.css" rel="stylesheet" type="text/css" />
+		<script>
+			
+			function mostrarAlerta(){
+				var valor = document.getElementById("txt1").value;
+				alert(valor);
+			}
 
+		</script>
 	</head>
 	<body>
 
@@ -45,7 +52,7 @@
 
 
 		<form>
-			<div><input type="text" placeholder="Ingrese aqui un texto eñe" name="txt1" /></div>
+			<div><input type="text" placeholder="Ingrese aqui un texto eñe" name="txt1" id="txt1" /></div>
 			<div><input type="password" name="txt2"/></div>
 			<div><input type="number" name="txt3"/></div>
 			<div><input type="date" name="txt4"/></div>
@@ -67,7 +74,7 @@
 				</select>
 			</div>
 			<div>
-				<input type="button" value="Esto es un Button">
+				<input type="button" value="Esto es un Button" onclick="mostrarAlerta()">
 				<input type="submit" value="Esto es un Submit">
 
 				<button type="button">BOTON</button>
