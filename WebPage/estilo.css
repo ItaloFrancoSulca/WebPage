@@ -1,0 +1,36 @@
+
+			h1, h2, h3, h4, h5, h6, p, ul, ol, label, a, span {
+				color:white;
+				}
+			
+			#paraf {border: 1px solid white;}
+
+			input[type='text']{
+				border: 3px solid green;
+			}
+
+
+			@media only screen and (max-width:600px){
+			body{
+				background-image: url("https://vignette.wikia.nocookie.net/naruto/images/7/78/Naruto_de_ni%C3%B1o_HD.PNG/revision/latest?cb=20131220195325&path-prefix=es");
+				}
+			}
+			@media only screen and (min-width:601px){
+			body{
+				background-image: url("https://i.pinimg.com/originals/4e/4d/41/4e4d41009d4b09db4f41f571c4076107.jpg");
+				}
+			}
+
+			.tipoletra{
+					font-family: Comic Sans MS;
+			}
+
+			table thead {
+				color: green;
+				font-family: Arial
+			}
+
+			table tbody tr:hover {
+				background: yellow;
+				cursor: pointer;
+			}
